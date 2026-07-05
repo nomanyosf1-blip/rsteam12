@@ -1,0 +1,69 @@
+{
+  "server": {
+    "port": 3000,
+    "host": "0.0.0.0"
+  },
+  "app": {
+    "name": "RS TEAM",
+    "description": "RS TEAM: نظام تذاكر احترافي للديسكورد مع لوحة تحكم ويب متطورة.",
+    "version": "3.5",
+    "branding": {
+      "primaryColor": "#c5a059",
+      "logo": "https://f.top4top.io/p_3767z53v0.png",
+      "banner": "https://g.top4top.io/p_3767w8f71.png",
+      "footer": "RS TEAM System | Crafted with Love"
+    }
+  },
+  "globalSystemEmbeds": {
+    "alreadyHasTicket": {
+      "title": "❌ لديك تذكرة مفتوحة",
+      "description": "أغلق تذكرتك الحالية أولاً لفتح تذكرة جديدة.",
+      "color": "#FF0000"
+    },
+    "ticketWarning": {
+      "title": "⚠️ تنبيه رسمي",
+      "description": "تم تنبيهك في {channel}\nالسبب: {reason}",
+      "color": "#FFA500"
+    }
+  },
+  "botSettings": {
+    "intents": [
+      "Guilds",
+      "GuildMessages",
+      "MessageContent",
+      "GuildMembers"
+    ],
+    "defaultActivity": "RS TEAM System",
+    "defaultStatus": "online"
+  },
+  "globalDiscord": {
+    "guildId": "YOUR_GUILD_ID_HERE",
+    "adminRoleId": "YOUR_ADMIN_ROLE_ID_HERE",
+    "staffRoleId": "YOUR_STAFF_ROLE_ID_HERE",
+    "logChannelId": "YOUR_LOG_CHANNEL_ID_HERE",
+    "ticketCategoryId": "YOUR_TICKET_CATEGORY_ID_HERE",
+    "transcriptChannelId": "YOUR_TRANSCRIPT_CHANNEL_ID_HERE"
+  },
+  "instances": [
+    {
+      "id": "inst-main",
+      "name": "RS TEAM BOT",
+      "token": "YOUR_DISCORD_BOT_TOKEN_HERE",
+      "status": "متوقف",
+      "panels": [],
+      "ownerId": "1479915789661503699",
+      "systemEmbeds": {
+        "alreadyHasTicket": {
+          "title": "❌ لديك تذكرة مفتوحة",
+          "description": "أغلق تذكرتك الحالية أولاً لفتح تذكرة جديدة.",
+          "color": "#FF0000"
+        },
+        "ticketWarning": {
+          "title": "⚠️ تنبيه رسمي",
+          "description": "تم تنبيهك في {channel}\nالسبب: {reason}",
+          "color": "#FFA500"
+        }
+      }
+    }
+  ]
+}
