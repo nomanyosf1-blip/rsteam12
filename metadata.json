@@ -1,0 +1,6 @@
+{
+  "name": "rsteam",
+  "description": "rsteam: نظام تذاكر احترافي للديسكورد مع لوحة تحكم ويب متطورة.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
